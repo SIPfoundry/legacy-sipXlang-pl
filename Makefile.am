@@ -2,6 +2,7 @@ include config/lang.am
 
 EXTRA_DIST = \
 	sipxpbx \
-	sipxecs-lang-@LANG_ID@.spec
+	config/revision-gen \
+	sipxlang-@LANG_ID@.spec
 
-conf_DATA = sipxecs-lang-@LANG_ID@.jar
+conf_DATA = sipxlang-@LANG_ID@.jar
