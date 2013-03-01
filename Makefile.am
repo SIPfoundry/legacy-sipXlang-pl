@@ -1,8 +1,8 @@
+include config/utility.am
+include config/project.am
 include config/lang.am
 
-EXTRA_DIST = \
-	sipxpbx \
-	config/revision-gen \
-	sipxlang-@LANG_ID@.spec
+@PACKAGE@_EXTRA_DIST = \
+	sipxpbx
 
 confplugin_DATA = sipxlang-@LANG_ID@.jar
